@@ -1,0 +1,43 @@
+.Header {
+  background-color: var(--section-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem var(--container-padding);
+  box-shadow: 0 0.5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Header > h1 {
+  font-size: 2.7rem;
+}
+
+.Header > h5 {
+  font-size: 1.65rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Header > h5 > i {
+  font-size: 0.9em;
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 530px) {
+  .Header > h1 {
+    font-size: 1.9rem;
+  }
+
+  .Header > h5 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Header > h1 {
+    font-size: 1.65rem;
+  }
+
+  :root {
+    --container-padding: 1.5rem;
+  }
+}

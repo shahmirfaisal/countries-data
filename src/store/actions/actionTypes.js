@@ -1,0 +1,6 @@
+export const FETCH_DATA = "FETCH_DATA";
+export const FILTER_NAME = "FILTER_NAME";
+export const FILTER_REGION = "FILTER_REGION";
+export const FETCH_FULL_COUNTRY = "FETCH_FULL_COUNTRY";
+export const REMOVE_DATA = "REMOVE_DATA";
+export const RESET_COUNTRIES = "RESET_COUNTRIES";
